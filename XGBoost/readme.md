@@ -42,7 +42,7 @@ This repository showcases machine learning models applied to high-frequency trad
 - Sequence window: 50–100 candles (250–500 minutes)
 - Merge M15 and H1 indicators for trend context
 
-📁 Code: [`/models/lstm_model.py`](models/lstm_model.py)
+<!-- Code: LSTM implementation in /LSTM/lstm_v1.py -->
 
 ---
 
@@ -61,7 +61,7 @@ This repository showcases machine learning models applied to high-frequency trad
 - Lagged returns, RSI, MACD, Bollinger Bands
 - Multi-timeframe signals (e.g., M15 RSI, H1 MA)
 
-📁 Code: [`/models/xgboost_model.py`](models/xgboost_model.py)
+<!-- Code: XGBoost implementation in /XGBoost/train_xgboost_ustec.py -->
 
 ---
 
@@ -74,7 +74,7 @@ This repository showcases machine learning models applied to high-frequency trad
 - Still needs good preprocessing
 - Less intuitive for noisy, irregular financial patterns
 
-📁 Code: [`/models/tcn_model.py`](models/tcn_model.py)
+<!-- Code: TCN implementation (add path if available) -->
 
 ---
 
@@ -87,7 +87,7 @@ This repository showcases machine learning models applied to high-frequency trad
 - Very resource intensive
 - Needs lots of data + tuning
 
-📁 Code: [`/models/transformer_model.py`](models/transformer_model.py)
+<!-- Code: Transformer implementation (add path if available) -->
 
 ---
 
@@ -100,7 +100,7 @@ This repository showcases machine learning models applied to high-frequency trad
 - Not suited for directional prediction in M5
 - Struggles with non-linear dependencies
 
-📁 Code: [`/models/arima_garch.py`](models/arima_garch.py)
+<!-- Code: ARIMA/GARCH implementation (add path if available) -->
 
 ---
 

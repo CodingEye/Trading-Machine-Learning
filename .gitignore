@@ -7,6 +7,7 @@ config.json
 
 # Ignore gemini folder
 gemini/
+XGBoost/Market_data/
 
 # Optional: Ignore common OS & editor files
 .DS_Store
