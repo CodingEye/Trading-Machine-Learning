@@ -16,6 +16,10 @@ df['Target'] = (df['Close'] > df['Open']).astype(int)
 # Drop rows with NaN (if any)
 df = df.dropna()
 
+# Filter for trading time: 08:00 <= hour < 20:00
+df['Hour'] = pd.to_datetime(df['DateTime']).dt.hour
+df = df[(df['Hour'] >= 8) & (df['Hour'] < 20)]
+
 # Use only columns that exist in the CSV (from your ordered_cols list)
 ordered_cols = [
     'LWMA_15', 'LWMA_60', 'LWMA_200', 'STOCH_K', 'STOCH_D',
