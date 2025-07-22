@@ -17,7 +17,7 @@ features = [
 
 # --- Connect to MetaTrader 5 ---
 mt.initialize()
-
+'''
 # get account info
 account_info = mt.account_info()
 login_number = account_info.login
@@ -28,6 +28,7 @@ print()
 print('login: ', login_number)
 print('balance: ', balance)
 print('equity: ', equity)
+'''
 
 symbol = "USTEC"
 timeframe = mt.TIMEFRAME_M5  # or your preferred timeframe
@@ -40,6 +41,7 @@ while True:
     df = pd.DataFrame(rates)
 
     print("Raw MT5 DataFrame shape:", df.shape)
+    print("Raw MT5 DataFrame columns:", df.columns.tolist())
     print("First 5 rows of raw data:\n", df.head())
 
     if len(df) < 200:
