@@ -1,0 +1,1 @@
+Machine learning for trading stock indices like NASDAQ and DOW. This project explores XGBoost and LSTM models with a focus on data cleaning, feature engineering, and backtesting strategies across multiple timeframes.

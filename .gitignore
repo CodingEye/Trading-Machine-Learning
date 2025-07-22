@@ -1,0 +1,28 @@
+# Ignore config file
+config.json
+
+# Ignore env files
+.env
+.env.*
+
+# Ignore gemini folder
+gemini/
+
+# Optional: Ignore common OS & editor files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache (if using Python)
+__pycache__/
+*.pyc
+
+# Ignore Node modules (if using Node.js)
+node_modules/
+
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
